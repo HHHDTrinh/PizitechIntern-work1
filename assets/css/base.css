@@ -1,0 +1,142 @@
+:root{
+    --white-color: #FFFFFF;
+    --black-color: #000;
+    --primary-color: #F58A07;
+    --strong-text-color: #1D3444;
+    --desc-text-color: #5B5B5B;
+    --title-text-color: #0D1317;
+
+    --navbar-height: 84px;
+}
+
+*{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 10px;
+    line-height: 1.6;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Change Grid libary default width 1200px */
+.grid.wide{
+    max-width: 1280px;
+}
+
+.text-strong-spacing{
+    font-weight: 600;
+    letter-spacing: -0.03em;
+}
+
+.ptb-96{
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.ptb-64{
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.column__orange-container{
+    position: relative;
+    line-height: 0;
+}
+
+.column__orange{
+    position: absolute;
+    background: #F58A07;
+    mix-blend-mode: multiply;
+    bottom: 0;
+    top: 0;
+}
+
+.column__orange-square--sm{
+    width: 95px;
+    height: 97px;
+    border-radius: 20px;
+}
+
+.btn{
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    height: 54px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 17px;
+    padding: 18px 32px 19px;
+}
+
+.btn--small{
+    padding: 17px 32px 18px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    opacity: 0.75;
+}
+
+.number__primary{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 3.6rem;
+    line-height: 50px;
+    color: var(--primary-color);
+}
+
+.input{
+    text-transform: capitalize;
+    font-family: 'Inter', sans-serif;
+    outline: none;
+    border: none;
+    width: 100%;
+    font-weight: 500;
+    line-height: 19px;
+    font-size: 1.6rem;
+    padding: 17px 0 18px 32px;
+    background: rgba(210, 218, 237, 0.17);
+    border-radius: 27px;
+}
+
+.input::placeholder{
+    color: #9C9C9C;
+}
+
+.line hr {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1px;
+    border: 0;
+    background: rgba(255, 255, 255, 0.35);
+    width: 30%;
+    margin-top: 0.5rem;
+}
+
+.display--mobile{
+    display: none;
+}
+
+@media screen and (max-width: 46.1875em) {
+    .btn{
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .btn:hover{
+        cursor: default;
+        opacity: 1;
+    }
+
+    .btn--half{
+        width: 50%;
+    }
+}

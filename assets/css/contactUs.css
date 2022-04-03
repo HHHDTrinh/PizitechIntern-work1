@@ -1,0 +1,69 @@
+header{
+    margin: 108px 0 64px;
+}
+
+header .contact__title-heading{
+    color: var(--strong-text-color);
+    font-size: clamp(3.2rem, 3.3vw, 4.8rem);
+    line-height: 1.4em;
+    margin-bottom: 24px;
+}
+
+header .contact__title{
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 30px;
+    color: var(--title-text-color);
+    letter-spacing: -0.03em;
+    margin: 20px 0 16px;
+}
+
+header .contact__desc a,
+header .contact__desc{
+    color: var(--desc-text-color);
+    line-height: 30px;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+header .contact__desc a{
+    text-decoration: none;
+}
+
+.content .contact__img{
+    background: url('../img/htmlPages/contactUs/mapSVG.svg') center center / cover no-repeat;
+    height: calc(100% - 86px);
+    border-radius: 20px;
+}
+
+.content input.btn{
+    margin: 32px 0;
+    border-radius: 31px;
+}
+
+.content input.btn.btn--form{
+    margin-bottom: 96px;
+}
+
+.content input{
+    margin-bottom: 16px;
+}
+
+.content .contact__input--lg{
+    padding: 32px 0 114px 32px;
+    margin-bottom: 0;
+}
+
+
+
+/* Responsive */
+@media screen and (max-width: 63.9375em) {
+    header{
+        margin: 32px 0;
+        padding: 0 6%;
+    }
+    
+    .content input.btn{
+        float: right;
+    }
+}

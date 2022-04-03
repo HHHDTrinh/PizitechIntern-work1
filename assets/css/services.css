@@ -1,0 +1,159 @@
+/* Commnon */
+.ml-76{
+    margin-left: 76px;
+}
+
+.mr-80{
+    margin-right: 80px;
+}
+
+/* Services */
+header{
+    margin: 108px 0 64px;
+}
+
+header .servicesHeader__left-title{
+    margin-top: 132px;
+    line-height: 1.4em;
+    font-size: clamp(3.2rem, 3.3vw, 6.4rem);
+    color: var(--strong-text-color);
+}
+
+header .servicesHeader__left-desc{
+    font-weight: 500;
+    font-size: clamp(1.6rem, 3.3vw, 1.8rem);
+    line-height: 1.4em;
+    color: var(--desc-text-color);
+    margin: 24px 0 32px;
+}
+
+header .servicesHeader__left button{
+    border-radius: 27px;
+}
+
+header .servicesHeader__right{
+    position: relative;
+    line-height: 1.4em;
+}
+
+header .servicesHeader__right .servicesHeader__img{
+    width: 100%;
+}
+
+header .servicesHeader__right span{
+    width: 180px;
+    border-radius: 20px 0 0 20px;
+    left: 0;
+}
+
+header .servicesHeader__img-circle{
+    position: absolute;
+    top: 74px;
+    right: -58px;
+}
+
+.content .servicesFearues__title{
+    font-size: clamp(2.8rem, 3.3vw, 4.8rem);
+    line-height: 1.4em;
+    color: var(--title-text-color);
+    margin-top: 128px;
+}
+
+.content .servicesFearues__desc{
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 1.4em;
+    color: var(--desc-text-color);
+    margin: 24px 0;
+}
+
+.content .servicesFearues__item{
+    list-style-position: inside;
+    color: var(--desc-text-color);
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.4em;
+}
+
+
+.content .servicesFearues__img{
+    position: relative;
+    line-height: 1.4em;
+}
+
+.content .servicesFearues__img img{
+    width: 100%;
+}
+
+.content .servicesFearues__orange1{
+    margin-top: 128px;
+    left: -48px;
+}
+
+.content .servicesFearues__orange4,
+.content .servicesFearues__orange2{
+    right: -48px;
+    top: 50%;
+}
+
+.content .servicesFearues__orange3{
+    left: -48px;
+    top: 40%;
+}
+
+.content .servicesFearues__orange5{
+    left: -48px;
+    top: 62%;
+}
+
+
+/* Responsive */
+
+
+@media screen and (max-width: 63.9375em) {
+    .dp-flex{
+        display: flex;
+    }
+
+    .order__1{
+        order: 1;
+    }
+
+    .order__2{
+        order: 2;
+        margin-top: 16px;
+    }
+
+    .mr-80,
+    .ml-76{
+        margin: unset;
+    }
+
+    header{
+        margin: 32px 0;
+    }
+
+    header .servicesHeader__left-title{
+        margin-top: 0;
+    }
+
+    header .servicesHeader__right{
+        margin-top: 32px;
+    }
+
+    .content .servicesFearues__title{
+        margin-top: 0;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 46.1875em) {
+    header{
+        padding: 0 6%;
+    }
+
+    header .servicesHeader__right span{
+        width: 30%;
+        border-radius: 12px 0 0 12px;
+    }
+}

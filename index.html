@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://assets.website-files.com/5b8f3bd5334d376d704155c1/5fa2a953950684c34c35aa63_fs-logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <title>Finsweet</title>
+</head>
+<body>
+    <div id="main">
+        <div class="grid wide">
+            <nav class="navbar display--pc">
+                <a href="index.html">
+                    <img src="./assets/img/navbar/Logo.svg" alt="" class="navbar__logo">
+                </a>
+                <div class="navbar__list">
+                    <nav class="navbar__items">
+                        <a class="navbar__item" href="./pages/aboutUs.html">About Us</a>
+                        <a class="navbar__item" href="./pages/careers.html">Careers</a>
+                        <a class="navbar__item" href="./pages/services.html">Services</a>
+                        <a class="navbar__item" href="./pages/blog.html">Blog</a>
+                        <a class="navbar__item" href="./pages/contactUs.html">Contact Us</a>
+                    </nav>
+                    <button class="btn btn--small navbar__menu-btn">Clone project</button>
+                </div>
+            </nav>
+        </div>
+        <nav class="navbar--mobile display--mobile">
+            <a href="index.html" class="logo"><img src="./assets/img/navbar/Logo.svg" alt="Logo Finsweet"></a>
+            <input class="navbar__mobile-check" type="checkbox" id="navbar__mobile-check" />
+            <label class="navbar__mobile-icon" for="navbar__mobile-check"><span class="navicon"></span></label>
+            <ul class="menu">
+                <li><a href="./pages/aboutUs.html">About Us</a></li>
+                <li><a href="./pages/careers.html">Careers</a></li>
+                <li><a href="./pages/services.html">Services</a></li>
+                <li><a href="./pages/blog.html">Blog</a></li>
+                <li><a href="./pages/contactUs.html">Contact Us</a></li>
+                <button class="btn navbar__mobile-btn">Clone Project</button>
+            </ul>
+        </nav>
+        <header class="header">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-6 m-12 c-12">
+                        <div class="header__text">
+                            <h1 class="header__text-title text-strong-spacing">
+                                Prosper with our bespoke solutions
+                            </h1>
+                            <p class="header__text-desc">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>Suspendisse varius enim in eros elementum tristique
+                            </p>
+                            <div class="header__text-btns">
+                                <button onclick="location.href='./pages/services.html'" class="btn btn--half header__text-btn">
+                                    See our services
+                                </button>
+                                <a class="header__text-link" href="./pages/services.html">See All Services </a>
+                            </div>
+                            <p class="header__text-details">
+                                Worked with 100+ Companies
+                            </p>
+                            <div class="header__text-logos">
+                                <img class="header__text-logo" src="./assets/img/header/squareLogo.svg" alt="">
+                                <img class="header__text-logo" src="./assets/img/header/circleLogo.svg" alt="">
+                                <img class="header__text-logo" src="./assets/img/header/triangleLogo.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-6 m-0 c-0">
+                        <div class="header__img-wrapper">
+                            <span class="column__orange column__orange--front"></span>
+                            <span class="column__orange"></span>
+                            <img src="./assets/img/header/manHeader.png" class="header__img" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="content">
+            <!-- Help Section -->
+            <div class="grid wide ptb-96 ptb-32--mobile">
+                <header class="help__heading">
+                    <h2>We help more than 1500<br> companies from all sectors</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Curabitur sit amet eros <br> blandit, hendrerit elit et, mattis purus. 
+                        Vivamus commodo suscipit tellus et <br> pellentesque.
+                    </p>
+                </header>
+                <div class="help__posts">
+                    <div class="row">
+                        <div class="col l-4 m-12 c-12">
+                            <div class="help__items">
+                                <img class="help__items-img" src="./assets/img/content/images/helpImage1.png" alt="">
+                                <div class="help__details">
+                                    <p class="help__details-heading">
+                                        Business strategy
+                                    </p>
+                                    <p class="help__details-desc">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et,
+                                    </p>
+                                </div>
+                                <footer class="help__footer">
+                                    <a href="./pages/aboutUs.html">
+                                        <p class="help__footer-desc">Learn More</p>
+                                    </a>
+                                    <img src="./assets/img/content/svg/arrowIcon.svg" class="help__footer-img" alt="">
+                                </footer>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-12 c-12">
+                            <div class="help__items">
+                                <img class="help__items-img" src="./assets/img/content/images/helpImage2.png" alt="">
+                                <div class="help__details">
+                                    <p class="help__details-heading">
+                                        Digitalization
+                                    </p>
+                                    <p class="help__details-desc">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et,
+                                    </p>
+                                </div>
+                                <footer class="help__footer">
+                                    <a href="./pages/aboutUs.html">
+                                        <p class="help__footer-desc">Learn More</p>
+                                    </a>
+                                    <img src="./assets/img/content/svg/arrowIcon.svg" class="help__footer-img" alt="">
+                                </footer>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-12 c-12">
+                            <div class="help__items">
+                                <img class="help__items-img" src="./assets/img/content/images/helpImage3.png" alt="">
+                                <div class="help__details">
+                                    <p class="help__details-heading">
+                                        Risk assessment
+                                    </p>
+                                    <p class="help__details-desc">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et,
+                                    </p>
+                                </div>
+                                <footer class="help__footer">
+                                    <a href="./pages/aboutUs.html">
+                                        <p class="help__footer-desc">Learn More</p>
+                                    </a>
+                                    <img src="./assets/img/content/svg/arrowIcon.svg" class="help__footer-img" alt="">
+                                </footer>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Help Section -->
+
+            <!-- Feaures Section -->
+            <div class="bc-edf7ff">
+                <div class="grid wide ptb-96 ptb-32--mobile">
+                    <div class="feaures__heading text-strong-spacing">
+                        <h2>We are building software solution that solves your business challenges</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Curabitur sit amet eros blandit, hendrerit elit et, mattis purus.
+                            Vivamus commodo <br> suscipit tellus et pellentesque.
+                        </p>
+                    </div>
+                    <div class="fearues__items">
+                        <div class="row">
+                            <div class="col l-4 m-12 c-12">
+                                <div class="fearues__item">
+                                    <img src="./assets/img/content/svg/fearuesIcon1.svg" alt="">
+                                    <p class="fearues__item-title text-strong-spacing">Invoicing</p>
+                                    <p class="fearues__item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et,</p>
+                                </div>
+                            </div>
+                            <div class="col l-4 m-12 c-12">
+                                <div class="fearues__item">
+                                    <img src="./assets/img/content/svg/fearuesIcon2.svg" alt="">
+                                    <p class="fearues__item-title text-strong-spacing">Support</p>
+                                    <p class="fearues__item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et,</p>
+                                </div>
+                            </div>
+                            <div class="col l-4 m-12 c-12">
+                                <div class="fearues__item">
+                                    <img src="./assets/img/content/svg/fearuesIcon3.svg" alt="">
+                                    <p class="fearues__item-title text-strong-spacing">Surveying</p>
+                                    <p class="fearues__item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et,</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+            <!-- End Feaures Section -->
+
+            <!-- About Section -->
+            <div class="grid wide ptb-96 ptb-32--mobile">
+                <div class="about__items">
+                    <div class="row">
+                        <div class="col l-6 m-12 c-12">
+                           <div class="about__item">
+                                <h1 class="text-strong-spacing">The energy of a start-up combined with 30 years<br> of experience.</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                                    Curabitur sit amet eros blandit, hendrerit elit et, mattis<br> purus.
+                                    Vivamus commodo suscipit tellus et<br> pellentesque.
+                                </p>
+                                <div class="row">
+                                    <div class="col l-6 m-12 c-12">
+                                        <span class="number__primary">15+</span>
+                                        <h2 class="text-strong-spacing">Awards received</h2>
+                                        <p style="font-size: 1.6rem; line-height: 1.4em; margin: 0;">Lorem ipsum dolor sit amet, consectetur adipiscin. Curabitur sit amet eros elit et.</p>
+                                    </div>
+                                    <div class="col l-6 m-12 c-12">
+                                        <span class="number__primary">500+</span>
+                                        <h2 class="text-strong-spacing">Clients served</h2>
+                                        <p style="font-size: 1.6rem; line-height: 1.4em; margin: 0;">Lorem ipsum dolor sit amet, consectetur adipiscin. Curabitur sit amet eros elit et.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-6 m-12 c-12">
+                            <div class="about__img">
+                                <img class="about__img-circle" src="./assets/img/content/svg/aboutCircle.svg" alt="">
+                                <span class="column__orange column__orange--about"></span>
+                                <img class="about__img-person" src="./assets/img/content/images/aboutImage.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End About Section -->
+
+            <!-- Service Section -->
+            <div class="grid wide ptb-32--mobile">
+                <div class="service__items">
+                    <div class="row">
+                        <div class="col l-6 m-12 c-12">
+                            <div class="service__tab">
+                                <!-- Tab items -->
+                            <div class="tabs">
+                                <div class="tab-item active">
+                                <i class="tab-icon fas fa-code"></i>
+                                Business Strategy
+                                </div>
+                                <div class="tab-item">
+                                <i class="tab-icon fas fa-cog"></i>
+                                Digitalization
+                                </div>
+                                <div class="tab-item">
+                                <i class="tab-icon fas fa-plus-circle"></i>
+                                Risk Assessment
+                                </div>
+                            </div>
+
+                            <!-- Tab content -->
+                            <div class="tab-content">
+                                <div class="tab-pane active">
+                                        <h2 class="text-strong-spacing">Helping clients with research and strategy for their business</h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et, mattis purus. Vivamus commodo suscipit tellus et pellentesque.</p>
+                                        <br><br>
+                                        <p>Mattis purus. Vivamus commodo suscipit tellus et pellent. Curabitur sit amet eros blan esque.</p>
+                                </div>
+                                <div class="tab-pane">
+                                        <h2 class="text-strong-spacing">Building new solutions that reduce the workload on employees</h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et, mattis purus. Vivamus commodo suscipit tellus et pellentesque.</p>
+                                        <br><br>
+                                        <p>Mattis purus. Vivamus commodo suscipit tellus et pellent. Curabitur sit amet eros blan esque.</p>
+                                </div>
+                                <div class="tab-pane">
+                                        <h2 class="text-strong-spacing">Assessing risk with artificial inteligence software</h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et, mattis purus. Vivamus commodo suscipit tellus et pellentesque.</p>
+                                        <br><br>
+                                        <p>Mattis purus. Vivamus commodo suscipit tellus et pellent. Curabitur sit amet eros blan esque.</p>
+                                </div>
+                            </div>
+                            <footer class="service__footer">
+                                <a href="./pages/services.html">See all services</a>
+                                <img src="./assets/img/content/svg/arrowIcon.svg" alt="">
+                            </footer>
+                            </div>
+                        </div>
+                        <div class="col l-6 m-12 c-12">
+                            <div class="service__img">
+                                <span class="column__orange column__orange--service"></span>
+                                <img src="./assets/img/content/images/serviceImage.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <img class="service__img-ribbon display--pc" src="./assets/img/content/svg/Ribbon.svg" alt="">
+                </div>
+            </div>
+            <!-- End Service Section -->
+
+            <!-- CTA Section -->
+            <div class="grid ptb-64 ptb__none--mobile">
+                <div class="cta__items">
+                    <div class="row no-gutters">
+                        <div class="col l-6 m-12 c-12">
+                            <div class="cta__img display--pc">
+                            </div>
+                        </div>
+                        <div class="col l-6 m-12 c-12">
+                            <div class="cta__right">
+                                <h1 class="text-strong-spacing">Energy of a start-up combined with 30<br> years of experience.</h1>
+                                <button onclick="location.href='./pages/careers.html'" class="btn">See Job Vacancies</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End CTA Section -->
+
+            <!-- Video Section -->
+            <div class="grid wide ptb-64 ptb-32--mobile">
+                <div class="video__items">
+                    <div class="row">
+                        <div class="col l-6 m-12 c-12">
+                            <div class="video__left">
+                                <h1 class="text-strong-spacing">Finsweet was a dream<br> to work with</h1>
+                                <p class="video__left-desc">
+                                    Maecenas efficitur scelerisque lorem, et varius lacus<br> tincidunt vel. Pellentesque a arcu vitae diam dapibus mattis<br> vel vel orci. Vivamus eleifend nec felis vel auctor.
+                                </p>
+                                <div class="video__left-person">
+                                    <img src="./assets/img/content/svg/videoPerson.svg" alt="">
+                                    <div class="video__left-details">
+                                        <p>Chikelu Neo</p>
+                                        <p>CEO at MazeAI</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-6 m-12 c-12">
+                            <div class="video__play">
+                                <div class="video__play-ic  display--pc">
+                                    <img style="display:flex; align-items:center;" src="./assets/img/content/svg/playIcon.svg" alt="">
+                                </div>
+                                <img src="./assets/img/content/images/videoPlay.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Video Section -->
+
+            <!-- Latest Section -->
+            <div class="bc-dceaf5" style="background-color: #DCEAF5; margin-top: 64px;">
+                <div class="grid wide ptb-96 ptb-32--mobile">
+                    <h2 style="color: var(--title-text-color);" class="latest__heading text-strong-spacing">
+                        Latest Blog & News
+                    </h2>
+                    <div class="latest__items">
+                        <div class="row">
+                            <div class="col l-4 m-12 c-12">
+                                <div class="latest__item">
+                                    <img class="latest__item-img" src="./assets/img/content/images/latestImage1.png" alt="">
+                                    <div class="latest__item-wrapper">
+                                        <div class="latest__details">
+                                        <p class="latest__details-heading" style="line-height: 36px; margin-top:0">
+                                            Why you have to digitalize in 2021
+                                        </p>
+                                        <p class="latest__details-desc">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et,
+                                        </p>
+                                    </div>
+                                    <footer class="latest__footer">
+                                        <a href="./pages/blogInner.html">
+                                            <p class="latest__footer-desc">Learn More</p>
+                                        </a>
+                                        <img src="./assets/img/content/svg/arrowIcon.svg" class="latest__footer-img" alt="">
+                                    </footer>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-4 m-12 c-12">
+                                <div class="latest__item">
+                                    <img class="latest__item-img" src="./assets/img/content/images/latestImage2.png" alt="">
+                                    <div class="latest__item-wrapper">
+                                        <div class="latest__details">
+                                            <p class="latest__details-heading" style="line-height: 36px; margin-top:0">
+                                                Our internal process and longerm vision
+                                            </p>
+                                            <p class="latest__details-desc">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et,
+                                            </p>
+                                        </div>
+                                        <footer class="latest__footer">
+                                            <a href="./pages/blogInner.html">
+                                                <p class="latest__footer-desc">Learn More</p>
+                                            </a>
+                                            <img src="./assets/img/content/svg/arrowIcon.svg" class="latest__footer-img" alt="">
+                                        </footer>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-4 m-12 c-12">
+                                <div class="latest__item">
+                                    <img class="latest__item-img" src="./assets/img/content/images/latestImage3.png" alt="">
+                                    <div class="latest__item-wrapper">
+                                        <div class="latest__details">
+                                        <p class="latest__details-heading" style="line-height: 36px; margin-top:0">
+                                            Helping the next generation of leaders
+                                        </p>
+                                        <p class="latest__details-desc">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et,
+                                        </p>
+                                    </div>
+                                    <footer class="latest__footer">
+                                        <a href="./pages/blogInner.html">
+                                            <p class="latest__footer-desc">Learn More</p>
+                                        </a>
+                                        <img src="./assets/img/content/svg/arrowIcon.svg" class="latest__footer-img" alt="">
+                                    </footer>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Latest Section -->
+        </div>
+        <!-- End Content -->
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="grid wide">
+                <div class="footer-wrapper">
+                    <div class="row">
+                        <div class="col l-4 m-12 c-12">
+                            <div class="footer__top-left">
+                                <a href="index.html">
+                                    <img src="./assets/img/footer/Logo.svg" alt="" class="">
+                                </a>
+                                <h2 class="footer__left-title text-strong-spacing">Bespoke software solutions</h2>
+                                <div class="footer__social">
+                                    <a href="#">
+                                        <i class="footer-ic ri-facebook-fill"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="footer-ic ri-youtube-fill"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="footer-ic ri-instagram-line"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="footer-ic ri-twitter-fill"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-12 c-12">
+                            <div class="footer__top-center">
+                                <div class="row">
+                                    <div class="col l-6 m-6 c-12">
+                                    <div class="footer__company">
+                                        <h4 class="footer-title">
+                                            Company
+                                            <div class="line display--mobile">
+                                                <hr>
+                                            </div>
+                                        </h4>
+                                        <a href="./pages/aboutUs.html">About Us</a>
+                                        <a href="./pages/careers.html">Careers</a>
+                                        <a href="./pages/services.html">Services</a>
+                                        <a style="margin-bottom: 0;" href="./pages/blog.html">Blog</a>
+                                    </div>
+                                    </div>
+                                    <div class="col l-6 m-6 c-12">
+                                        <div class="footer__connect">
+                                            <h4 class="footer-title">
+                                                Connect
+                                                <div class="line display--mobile">
+                                                    <hr>
+                                                </div>
+                                            </h4>
+                                            <a href="mailto:hi@finsweet.com">hi@finsweet.com</a>
+                                            <a style="margin-bottom: 0;" href="tel:+(123) 456-7890">+(123) 456-7890</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-12 c-12">
+                            <div class="footer__top-right">
+                                <h4 class="footer-title">
+                                    Join Newsletter
+                                    <div class="line display--mobile">
+                                        <hr>
+                                    </div>
+                                </h4>
+                                <form action="">
+                                    <input required class="input" type="email" placeholder="Type email here">
+                                    <input type="submit" value="Subscribe" class="btn btn--small"/>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__bottom">
+                        <p>© All rights reserved – Finsweet</p>
+                        <div class="footer__bottom-right">
+                            <a href="./pages/privacyPolicy.html">Privacy Policy</a>
+                            <p>Terms & Conditions</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script type="module" src="./assets/js/main.js"></script>
+</body>
+</html>

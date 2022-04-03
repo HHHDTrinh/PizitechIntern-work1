@@ -1,0 +1,38 @@
+.content .policy__text{
+    margin: 108px 0 128px;
+    padding: 0 264px;
+}
+
+.content .policy__text-title{
+    font-size: clamp(3.2rem, 3.3vw, 6.4rem);
+    line-height: 1.4em;
+    color: var(--strong-text-color);
+    margin-bottom: 24px;
+}
+
+.content .policy__text-desc{
+    color: var(--desc-text-color);
+    font-size: 1.6rem;
+    line-height: 28px;
+    font-weight: 500;
+}
+
+.content .policy__text-second-title{
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 30px;
+    margin: 40px 0 24px;
+}
+
+
+@media screen and (max-width: 63.9375em) {
+    .content{
+        margin-top: 92px;
+    }
+
+    .content .policy__text{
+        padding: 0;
+        margin: 32px 0;
+    }
+}

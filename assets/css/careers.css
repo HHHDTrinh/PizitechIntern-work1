@@ -1,0 +1,127 @@
+header{
+    margin: 108px 0 64px;
+}
+
+header .careersHeader__left-title{
+    margin-top: 85px;
+    line-height: 1.4em;
+    font-size: clamp(3.2rem, 3.3vw, 6.4rem);
+    color: var(--strong-text-color);
+}
+
+header .careersHeader__left-desc{
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 30px;
+    color: var(--desc-text-color);
+    margin: 24px 0;
+}
+
+header .careersHeader__left button{
+    border-radius: 27px;
+}
+
+header .careersHeader__right{
+    position: relative;
+    line-height: 0;
+}
+
+header .careersHeader__right .careersHeader__right-img{
+    width: 100%;
+}
+
+header .careersHeader__right span{
+    width: 180px;
+    border-radius: 20px 0 0 20px;
+    left: 0;
+}
+
+header .careersHeader__img-circle{
+    position: absolute;
+    top: 74px;
+    right: -58px;
+}
+
+.content .careers__section-top p{
+    margin-bottom: 24px;
+}
+
+.content .careers__section-top p{
+    color: var(--title-text-color);
+    font-size: clamp(2.8rem, 3.3vw, 4.8rem);
+    line-height: 1.4em;
+}
+
+.content .careers__section-options{
+    background: rgba(193, 228, 255, 0.3);
+    border-radius: 20px;
+    padding: 32px 40px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.content .careers__section-title{
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 30px;
+    color: var(--title-text-color);
+}
+
+.content .careers__section-desc{
+    color: #394149;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    opacity: 0.6;
+    margin: 8px 0 32px;
+}
+
+.content .careers__section-options a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.content .careers__section-link{
+    font-size: 1.8rem;
+    line-height: 19px;
+    font-weight: 400;
+}
+
+/* Responsive */
+@media screen and (max-width: 63.9375em) {
+    header{
+        margin: 16px 0;
+        padding: 0 6%;
+    }
+    
+    header .careersHeader__left-title{
+        margin-top: 0;
+    }
+
+    header .careersHeader__right{
+        margin-top: 32px;
+    }
+
+    header .careersHeader__right span{
+        border-radius: 12px 0 0 12px;
+        width: 30%;
+    }
+
+    .content .careers__section-options{
+        margin: 24px auto 0;
+        width: 100%;
+    }
+
+    .content .careers__section-top p{
+        margin-bottom: 0;
+    }
+
+}
+
+/* Mobile */
+@media screen and (max-width: 46.1875em) {
+    header .careersHeader__img-circle{
+        top: -24px;
+        right: -24px;
+    }
+}

@@ -1,0 +1,226 @@
+header{
+    margin-top: 108px;
+}
+
+header .aboutHeader__text h1{
+    color: var(--strong-text-color);
+    line-height: 1.4em;
+    font-size: clamp(3.2rem, 3.3vw, 6.4rem);
+    margin-bottom: 24px;
+}
+
+header .aboutHeader__text .aboutHeader__text-desc{
+    font-weight: 500;
+    line-height: 30px;
+    font-size: 1.8rem;
+    color: var(--desc-text-color);
+    margin-bottom: 32px;
+}
+
+header .aboutHeader__text button{
+    border-radius: 27px;
+}
+
+header .aboutHeader__img{
+    position: relative;
+    line-height: 0;
+}
+
+header .column__orange--header{
+    width: 30%;
+    border-radius: 20px 0 0 20px;
+}
+
+header .aboutHeader__img .aboutHeader__img-heading{
+    width: 100%;
+}
+
+header .aboutHeader__img-circle{
+    position: absolute;
+    bottom: -49px;
+    right: -58px;
+}
+
+.content .aboutFearues__items{
+    margin-top: 80px;
+    margin-bottom: 64px;
+}
+
+.content .aboutFearues__top{
+    margin-bottom: 64px;
+}
+
+.content .aboutFearues__top h1{
+    line-height: 1.4em;
+    font-size: clamp(3.2rem, 3.3vw, 3.6rem);
+    color: var(--title-text-color);
+    margin: 0;
+}
+
+.content .aboutFearues__top p{
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 30px;
+    color: var(--strong-text-color);
+}
+
+.content .aboutFearues__bottom .aboutFearues__bottom-title{
+    font-size: 2.4rem;
+    line-height: 26px;
+    color: var(--title-text-color);
+    margin: 16px 0;
+}
+
+.content .aboutFearues__bottom .aboutFearues__bottom-desc{
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 28px;
+    color: var(--desc-text-color);
+}
+
+.content .aboutAbout__items-left{
+    margin-top: 146px;
+}
+
+.content .aboutAbout__items-left p{
+    font-size: clamp(3rem, 3.3vw, 4.8rem);
+    line-height: 1.4em;
+    color: var(--title-text-color);
+    margin-bottom: 32px;
+}
+
+.content .aboutAbout__items-left span{
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 30px;
+    color: var(--desc-text-color);
+}
+
+.content .aboutAbout__items-right{
+    position: relative;
+    line-height: 0;
+}
+
+.content .aboutAbout__items-right img{
+    width: 100%;
+}
+
+.content .aboutAbout__items-right .column__orange--square{
+    top: unset;
+    border-radius: 20px;
+    right: -5%;
+    bottom: -5%;
+    height: 289px;
+    width: 284px;
+}
+
+.content .teamAbout__title{
+    font-size: clamp(3.2rem, 3.3vw, 4.8rem);
+    line-height: 56px;
+    color: var(--title-text-color);
+}
+
+.content .teamAbout__desc{
+    margin: 27px 0 64px;
+    font-size: 1.8rem;
+    line-height: 30px;
+    color: var(--desc-text-color);
+}
+
+.content .teamAbout__items-bottom img{
+    width: 100%;
+}
+
+.content .teamAbout__details-wrapper{
+    position: relative;
+    overflow: hidden;
+}
+
+.content .teamAbout__details{
+    position: absolute;
+    background-color: #252525;
+    color: var(--white-color);
+    border-radius: 0 0 20px 20px;
+    padding: 43px 27px 33px 31px;
+    bottom: 0;
+    font-weight: 600;
+    transform: translateY(100%);
+    transition: transform 1s;
+}
+
+.teamAbout__details-wrapper:hover .teamAbout__details{
+    transform: translateY(0);
+}
+
+.content .teamAbout__details-work{
+    opacity: 0.7;
+    line-height: 16px;
+    font-size: 1.4rem;
+}
+
+.content .teamAbout__details-name{
+    margin: 6px 0;
+    font-size: 2.4rem;
+    line-height: 32px;
+}
+
+.content .teamAbout__details-desc{
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 28px;
+}
+
+/* Responsive */
+/* Mobile Tablet */
+@media screen and (max-width: 63.9375em) {
+    header{
+        padding: 0 6%;
+    }
+
+    .content .aboutAbout__items-left,
+    .aboutHeader__text h1,
+    header{
+        margin-top: 0;
+    }
+
+    .content .aboutAbout__items-right,
+    .aboutHeader__img{
+        margin-top: 32px;
+    }
+
+    .content .aboutFearues__top{
+        margin-bottom: 32px;
+    }
+
+    .content .aboutFearues__items{
+        margin: 40px 0 32px;    
+    }
+
+    .content .aboutFearues__bottom .aboutFearues__bottom-desc{
+        font-size: 1.5rem;
+    }
+
+    .content .teamAbout__items-bottom img:nth-child(1),
+    .content .teamAbout__items-bottom img:nth-child(2){
+        margin-bottom: 12px;
+    }
+
+    .content .teamAbout__desc{
+        margin: 16px 0;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 46.1875em) {
+    header .column__orange--header{
+        border-radius: 12px 0 0 12px;
+    }
+
+    .content .teamAbout__details{
+        transform: translateY(0);
+    }
+
+    .content .teamAbout__details-wrapper{
+        margin-bottom: 8px;
+    }
+}
