@@ -33,7 +33,7 @@ header .servicesHeader__left button{
 
 header .servicesHeader__right{
     position: relative;
-    line-height: 1.4em;
+    line-height: 0;
 }
 
 header .servicesHeader__right .servicesHeader__img{
